@@ -14,7 +14,7 @@ class CacheController extends BaseController
      */
     public function actionIndex()
     {
-        echo md5(md5(1598));
+        echo 'ding';
         die;
         $this->render('index');
     }
